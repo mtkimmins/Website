@@ -1,4 +1,25 @@
-.main {
-	align-items: center;
-	text-decoration-line: none;
+/*Main Header, kept consistent for all pages*/
+.main h1 {
+	text-align: center;
+}
+
+.main nav {
+	word-spacing: 10em;
+	text-align: center;
+}
+
+.main a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+/*Footer*/
+footer {
+	vertical-align: 1vh;
+	text-align: center;
+}
+
+footer ul {
+	text-decoration-style: none;
 }
