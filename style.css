@@ -19,6 +19,11 @@ footer {
 	text-align: center;
 }
 
-footer ul {
+footer table {
+	/*to centre table*/
+	margin-left: auto;
+	margin-right: auto;
+
 	text-decoration-style: none;
+	text-align: left;
 }
