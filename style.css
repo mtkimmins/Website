@@ -1,20 +1,60 @@
 /*Main Header, kept consistent for all pages*/
-.main h1 {
+.main {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
 	text-align: center;
+	row-gap: 30px;
+	justify-content: space-evenly;
 }
-
-.main nav {
-	word-spacing: 10em;
-	text-align: center;
-}
-
 .main a {
-	text-align: center;
 	text-decoration: none;
 	color: black;
 }
+.main-title {
+	grid-column: 1 / span 3;
+	font-size: x-large;
+	font-weight: bolder;
+}
+.main-nav {
+	font-size: larger;
+	font-weight: bold;
+}
 
-/*Footer*/
+
+/*Blog*/
+.blog {
+	display: grid;
+	gap: 30px;
+}
+.blog-title {
+	font-size: larger;
+	font-weight: bolder;
+}
+
+
+/*Posts*/
+.post {
+	display: grid;
+	gap: 10px;
+}
+.post-title {
+	font-size: auto;
+	font-weight: bold;
+}
+.post > div {
+	padding: auto;
+}
+.post-img {
+	margin: auto;
+	max-width: 100%;
+}
+
+
+
+
+
+/*Main footer, keep consistent for all pages*/
 footer {
 	text-align: center;
 }
