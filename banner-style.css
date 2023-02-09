@@ -1,0 +1,43 @@
+/*TAGS*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+
+/*CLASSES*/
+.banner {
+    text-align: center;   
+    width: 100%;
+    margin: auto;
+}
+.container {
+    display: grid;
+    background-color: grey;
+    border: 1px solid black;
+}
+.center-min {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bar {
+    display: flex;
+}
+
+/*IDs*/
+#main-bar {
+    width: 100%;
+    columns: 3;
+    column-gap: 30px;
+}
